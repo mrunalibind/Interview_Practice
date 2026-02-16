@@ -10,5 +10,6 @@ console.log("Environment variables loaded:", process.env.PORT, process.env.MONGO
 
 export const ENV = {
     PORT: process.env.PORT,
-    MONGO_URL: process.env.MONGO_URL
+    MONGO_URL: process.env.MONGO_URL,
+    NODE_ENV: process.env.NODE_ENV
 }

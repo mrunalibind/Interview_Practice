@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
   "dependencies": {
     "dotenv": "^17.3.1",
     "express": "^5.1.0",
+    "interview_practice": "file:..",
     "mongoose": "^8.19.1"
   },
   "devDependencies": {
